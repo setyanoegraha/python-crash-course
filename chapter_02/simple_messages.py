@@ -1,5 +1,5 @@
 # Assign a message to a variable
-message = "Don't forget the life promised yourself."
+message = "Don't give up on the life you promised yourself."
 
 # Print out the message
 print(message)
