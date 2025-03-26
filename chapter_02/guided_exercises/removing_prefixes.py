@@ -6,8 +6,8 @@ google_without_prefix = google_url.removeprefix('https://www.')
 print(google_without_prefix)  # Output: google.com/
 
 # Remove the trailing slash using removesuffix()
-google = google_without_prefix.removesuffix('/')
-print(google)  # Output: google.com
+google_cleaned = google_without_prefix.removesuffix('/')
+print(google_cleaned)  # Output: google.com
 
 """
 Explanation:
