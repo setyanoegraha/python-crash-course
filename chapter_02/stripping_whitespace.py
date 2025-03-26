@@ -1,17 +1,17 @@
 # Assign a value into a variable with leading and trailing spaces
-favorite_language = " python "
+message = " the cave you fear to enter holds the treasure you seek "
 
 # Print out the variable, showing the leading and trailing spaces clearly
-print(f"'{favorite_language}'")  # Output: ' python '
+print(f"'{message}'")  # Output: ' python '
 
 # Print out the variable after removing the trailing space on the right side using rstrip()
-print(f"'{favorite_language.rstrip()}'")  # Output: ' python'
+print(f"'{message.rstrip()}'")  # Output: ' python'
 
 # Print out the variable after removing the leading space on the left side using lstrip()
-print(f"'{favorite_language.lstrip()}'")  # Output: 'python '
+print(f"'{message.lstrip()}'")  # Output: 'python '
 
 # Print out the variable after removing spaces on both sides using strip()
-print(f"'{favorite_language.strip()}'")  # Output: 'python'
+print(f"'{message.strip()}'")  # Output: 'python'
 
 """
 Explanation:
