@@ -21,7 +21,7 @@ print(
 print(
     f"Hello, My Dearest Friend {guests[-1].title()}! I would like to invite you to dinner. I look forward to an insightful conversation with you!\n")
 
-print()
+print("There is a little problem.")
 
 # Guest who can't make it
 unable_to_attends = 'joana'
