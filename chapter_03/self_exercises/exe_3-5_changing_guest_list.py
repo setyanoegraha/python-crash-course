@@ -65,5 +65,18 @@ Explanation:
 3️⃣ **Handling an unavailable guest:**
     - A variable `unable_to_attends` stores the name of a guest who can't attend.
     - I remove this guest from the list using `.remove()`.
-    
+4️⃣ **Replacing the guest:**
+    - A new guest (`einar`) is added using `.insert(0, new_guest)`, placin them at the beginning of the list.
+5️⃣ **Printing updated invitations:** I reprint the invitations for the updated guest list.
+6️⃣ **List Indexing:**
+    - `guest[0]` refers to the first guest.
+    - `guest[-1]` ensures we print the last guest dynamically.
+
+✅ Key concepts in this exercise:
+    - **List manipulation:** Adding, removing, and modifying elements dynamically.
+    - **String formatting:** Using `f-strings` and `.title()` for readability.
+    - **Indexing technique:** Accessing elements with positive and negative indexes.
+    - **Printing structured messages:** Ensuring invitations remain clear and professional.
+
+📃 This is a great way to practice list operations while handling dynamic invitations! 
 """
