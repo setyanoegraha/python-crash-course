@@ -33,7 +33,7 @@ guests.remove(unable_to_attends)
 print("These are the guests who could attend:")
 print(guests)
 
-# Replace the guest who can't attend  with a new guest
+# Replace the guest who can't attend  with a new guest with an index
 new_guest = 'einar'
 guests.insert(0, new_guest)
 print("\nThese are the new list guests who could attend:")
