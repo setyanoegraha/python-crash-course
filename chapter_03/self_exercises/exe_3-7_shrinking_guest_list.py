@@ -1,4 +1,4 @@
-# Create a list of guests to invite
+# Create a list of guests to invite on dinner
 guests = ['joana', 'cynthia', 'kyle', 'kenny',
           'niche', 'wezler', 'brock', 'gargan']
 
