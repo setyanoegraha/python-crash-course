@@ -28,12 +28,12 @@ unable_to_attends = 'joana'
 print(
     f"Unfotunately, {unable_to_attends.title()} can't make it to the dinner.\n")
 
-# Removing the guest who can't attend in a mosque
+# Removing the guest who can't attend in cafe
 guests.remove(unable_to_attends)
 print("These are the guests who could attend:")
 print(guests)
 
-# Replace the guest who can't attend  with a new guest with an index
+# Replace the guest who can't attend with a new guest using index inserting
 new_guest = 'einar'
 guests.insert(0, new_guest)
 print("\nThese are the new list guests who could attend:")
